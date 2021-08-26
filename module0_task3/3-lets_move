@@ -1,0 +1,2 @@
+#!/bin/sh
+mv mv [A-Z]* /tmp/u
