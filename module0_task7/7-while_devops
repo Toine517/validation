@@ -4,3 +4,4 @@ while [ $index != 10 ]; do
 echo Devops
 index=$(($index+1))
 done
+exit 0
