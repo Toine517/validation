@@ -1,7 +1,6 @@
 #!/bin/sh
 index=0
 while [ $index != 10 ]; do
-echo Devops
+echo DevOps
 index=$(($index+1))
 done
-exit 0
