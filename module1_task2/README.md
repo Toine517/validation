@@ -1,13 +1,12 @@
 ## Prerequisites
 In order to use the makefile, you ave to have:
-	installed HUGO
-	ANAKE manual installation
+	installed HUGO  
+	with ANAKE template manual installation  
 
 ## Lifecycle
-To use the makefile in three stages
-	build
-	new
-	clean
-
-To display help, use make help command
+To use the makefile in three stages:
+build  
+new  
+clean  
+help use make help command  
 
