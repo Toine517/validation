@@ -7,9 +7,10 @@ In order to use the makefile, you ave to have:
 
 ## Lifecycle
 To use the makefile in three stages:
-- build
-- new
-- clean
-- help 
+- build, build a new site
+- new, add a new post
+- clean, delete output directory
+- help, display this help
+
 help use make help command
 
