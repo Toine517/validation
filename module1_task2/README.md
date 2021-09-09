@@ -9,3 +9,5 @@ To use the makefile in three stages
 	new
 	clean
 
+To display help, use make help command
+
