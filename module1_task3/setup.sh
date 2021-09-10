@@ -4,8 +4,8 @@ if ! command -v hugo &> /dev/null
 then
     echo FAILS
     echo installing hugo
-    apt-get -qq update
-    apt-get -y -qq install hugo
+    apt-get -qq update > NULL 2>&1
+    apt-get -y -qq install hugo > NULL 2>&1
     echo hugo is installed
 else
     echo PASS
@@ -16,8 +16,8 @@ if ! command -v make &> /dev/null
 then
     echo FAILS
     echo installing make
-    apt-get -qq update
-    apt-get -y -qq install make
+    apt-get -qq update > NULL 2>&1
+    apt-get -y -qq install make > NULL 2>&1
     echo make is installed
 else
     echo "PASS"
