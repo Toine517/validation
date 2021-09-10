@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
 git commit -m $1
-git push 'https://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@github.com/Toine517/validation.git'
+git push 'https://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@github.com/Toine517/validation.git'
