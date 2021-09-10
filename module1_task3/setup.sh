@@ -1,17 +1,19 @@
 #!/bin/bash
+echo "testing for hugo"
 if ! command -v hugo &> /dev/null
 then
-    echo "hugo is not PRESENT"
+    echo "Fail"
     exit
 else
-    echo "hugo is PRESENT"
+    echo "PASS"
 fi
 
+echo "testing for make"
 if ! command -v make &> /dev/null
 then
-    echo "make is not PRESENT"
+    echo "FAIL"
 else
-    echo "make is PRESENT"
+    echo "PASS"
 fi
 
 #make build
