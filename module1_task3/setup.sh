@@ -6,6 +6,7 @@ then
     echo installing hugo
     apt-get -qq update
     apt-get -y -qq install hugo
+    echo hugo is installed
 else
     echo PASS
 fi
@@ -17,6 +18,7 @@ then
     echo installing make
     apt-get -qq update
     apt-get -y -qq install make
+    echo make is installed
 else
     echo "PASS"
 fi
