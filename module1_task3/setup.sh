@@ -16,5 +16,5 @@ else
     echo "PASS"
 fi
 
-make build
+make build 2>&1
 
