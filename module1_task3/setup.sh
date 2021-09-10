@@ -21,9 +21,9 @@ else
     echo "PASS"
 fi
 
-apt-get -y install wget
-wget https://github.com/gohugoio/hugo/releases/download/v0.76.5/hugo_extended_0.76.5_Linux-64bit.deb
-dpkg -i hugo_extended_0.76.5_Linux-64bit.deb
+apt-get -y -qq install wget > NULL 2>&1
+wget https://github.com/gohugoio/hugo/releases/download/v0.76.5/hugo_extended_0.76.5_Linux-64bit.deb > NULL 2>&1
+dpkg -i hugo_extended_0.76.5_Linux-64bit.deb > NULL 2>&1
 
 make build 2>&1
 
