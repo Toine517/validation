@@ -1,5 +1,5 @@
-build:	lint ## Compile the source code to a binary
-	go build
+build:	## Compile the source code to a binary
+	golangci-lint run && go build
 
 lint:	## Compile the source code only if no lint error where detected
 	golangci-lint run
