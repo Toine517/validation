@@ -1,5 +1,10 @@
 # Simple GO web server
 
+## Prerequisites
+- Golang in v1.15.*
+- NPM v7+ with NodeJS v14.* (stable)
+- Python 3 with pip module
+
 ## deploy
 
 ## make file targets
