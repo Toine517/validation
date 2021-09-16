@@ -1,0 +1,19 @@
+build:	## Compile the source code to a binary
+	go build
+
+run:	## Run the application in background
+	./awesome-api >./awesome.log 2>&1 &
+
+stop:	## Stop the application
+	pgrep "awesome-api" | xargs kill
+
+clean:	## Delete the binary and the log file
+	rm awesome-api
+	rm awesome.log
+
+test:	## test the application
+	curl http://localhost:9999
+	curl http://localhost:9999/health
+
+help:	## display this help
+	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'
