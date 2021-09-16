@@ -4,11 +4,14 @@
 - Golang in v1.15.*
 - NPM v7+ with NodeJS v14.* (stable)
 - Python 3 with pip module
+- golang-lint
 
 ## Lifecycle
 Lint, vérify the code
 
 Build, compile the source code of the application awesome-api with the commande go build
+
+unit-tests, test la fonction HelloHandler
 
 Run, execute the application by executing the command ./awesome-api >./awesome.log 2>&1 &
 
