@@ -5,7 +5,16 @@
 - NPM v7+ with NodeJS v14.* (stable)
 - Python 3 with pip module
 
-## deploy
+## Lifecycle
+Build, compile the source code of the application awesome-api with the commande go build
+
+Run, execute the application by executing the command ./awesome-api >./awesome.log 2>&1 &
+
+Stop, stop the application by killing the process
+
+Clean, remove binary and log file (awesome-api & awesome.log)
+
+Test, simple test to verify the http server is up on the 9999 port
 
 ## make file targets
 ### build
