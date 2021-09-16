@@ -1,8 +1,9 @@
+lint:	## Detect lint error
+	golangci-lint run
+
 build:	## Compile the source code to a binary
 	golangci-lint run && go build
 
-lint:	## Compile the source code only if no lint error where detected
-	golangci-lint run
 
 run:	## Run the application in background
 	./awesome-api >./awesome.log 2>&1 &
