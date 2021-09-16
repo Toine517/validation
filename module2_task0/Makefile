@@ -8,6 +8,7 @@ stop:	## Stop the application
 	pkill awesome-api
 
 clean:	## Delete the binary and the log file
+	pkill awesome-api
 	rm awesome-api
 	rm awesome.log
 
